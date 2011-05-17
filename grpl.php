@@ -5,7 +5,7 @@ Plugin URI: http://letusbuzz.com
 Description: Google related post links
 Author URI: http://letusbuzz.com
 Author: Sudipto Pratap Mahato
-Version: 1.0
+Version: 1.1
 */
 add_filter('the_content', 'g_ser');
 
@@ -71,7 +71,6 @@ return $content.$boy;
           curl_setopt($handle, CURLOPT_TIMEOUT, 60);
           curl_setopt($handle, CURLOPT_CONNECTTIMEOUT, 1);
           curl_setopt($handle, CURLOPT_RETURNTRANSFER, 1);
-          curl_setopt($handle, CURLOPT_TIMEOUT, $timeout);
           $buffer = curl_exec($handle);
           curl_close($handle);
           return $buffer;

@@ -4,7 +4,7 @@ Donate link: http://letusbuzz.com/go/donate/
 Tags: Google Related Post Links, Google related links, google related posts, google related searches
 Requires at least: 2.0.2
 Tested up to: 3.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Displays a list of related posts and searches by Google
 
