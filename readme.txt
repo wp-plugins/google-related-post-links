@@ -23,6 +23,8 @@ Features of the plugins
 If you think that some features are missing then suggest me I will be happy to add those features to the plugin. Your suggestion is always appreciated.
 [Comment on this page ](http://letusbuzz.com/google-related-post-links/) to suggest a feature.
 
+[Author's site](http://letusbuzz.com/)
+
 == Installation ==
 
 1. Upload `google-relates-post-links` folder to the `/wp-content/plugins/` directory
