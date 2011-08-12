@@ -5,7 +5,7 @@ Plugin URI: http://letusbuzz.com
 Description: Google related post links
 Author URI: http://letusbuzz.com
 Author: Sudipto Pratap Mahato
-Version: 1.1
+Version: 1.2
 */
 add_filter('the_content', 'g_ser');
 
@@ -16,6 +16,7 @@ $plink = get_permalink($post->ID);
 $elink = urlencode($plink);
 $etitle = urlencode(str_replace(" ","+",get_the_title($post->ID)));
 $domain=str_replace("http://","",site_url());
+$domain=str_replace("https://","",$domain);
 if(!is_single())return $content;
 if(get_option('gr_noposts')==""){
 update_option('gr_noposts','5');
